@@ -1,4 +1,27 @@
 Sun Oct 4 2026:
 I was working on the intake. Before, the outer intake wheels were not supported and were dragging down, increasing the friction while rotating. The motor couldn't support that friction and sometimes got jammed, so I added a support to fix it, but it was in the wrong place. I fixed this problem today. I moved the support more to the inside of the robot so it wouldn't block the arm, and it supports the intake quite well while still being able to move up and down. Also, it fixed the problem of interfering with the chain that connects it to the other spinning wheels. It can now move up and down more freely, without worrying about getting jammed. Another problem that I fixed were the guiding plastic of the intake. Before, the plastic exeeds 20 cm, so I had to shorten it. I replaced the 6x1 metal piece by a 7x1 piece, which allowed me to install the shorter pieces. I tested it and it went well, but it could still get jammed if the pins and cups enter at the wrong place. 
+
 Fri Oct 16 2026: 
 The intake was disassembled, because the claw could directly pick up the stuff on the ground. I caut some parts so Alex can assemble the brain of the robot and I prepared some wires to connect the motors to the controller. We also got pizza and assembled a TV.
+
+Fri Oct 23 2026:
+
+The following is from white board:
+Make two C++ function: 
+Void AutonomousRed
+Void AutonomousBlack
+
+Direction: drivefor(reverse, 50, mm)
+#1 Toggle one/twice depending on colors
+#2 Grab and place pins and cups from the edge of wall
+   at black holder
+#3 Grab and place pins and cups from the edge of wall
+   at black holder
+ 2 & 3 are same action but put in different spot
+#4 Grab and place pins and cups from the edge of wall
+   at colored holder
+
+Preload:
+Put pins and cups upside down.
+Yellow & transparent
+
